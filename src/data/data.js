@@ -62,6 +62,15 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/cdgraham/wordpress_install', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'CDGraham.jpg',
+    title: 'This Website',
+    info: 'A Gatsby website running on Netlify',
+    info2: '',
+    url: 'https://cdgraham.com',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
